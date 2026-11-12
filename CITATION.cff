@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the original source."
+title: "HS Code Duties and Trade Flows - US, EU, Canada, Australia"
+type: dataset
+authors:
+  - family-names: "Bousquet"
+    given-names: "Henri"
+abstract: "One record per 6-digit HS code: base import duty rate in the US, EU, Canada and Australia, crossed with real EU27 trade flows (value, weight, top 3 partners). Pay per record."
+url: "https://apify.com/phonic_lily/hs-code-duties-and-trade-flows"
+repository-code: "https://github.com/adminglobalcostdata/hs-code-duties-and-trade-flows"
+date-released: 2026-11-12
+keywords:
+  - open-data
+  - dataset
+  - json
+  - jsonl
+  - apify
+  - apify-actor
+  - data-api
+  - code

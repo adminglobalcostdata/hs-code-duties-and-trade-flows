@@ -1,0 +1,109 @@
+{
+ "columns": [
+  {
+   "name": "hs6",
+   "type": "string",
+   "description": "6-digit Harmonized System code."
+  },
+  {
+   "name": "hs2",
+   "type": "string",
+   "description": "HS chapter (first 2 digits)."
+  },
+  {
+   "name": "hs4",
+   "type": "string",
+   "description": "HS heading (first 4 digits)."
+  },
+  {
+   "name": "description",
+   "type": "string",
+   "description": "Eurostat HS6 product description (English)."
+  },
+  {
+   "name": "us_base_rate_pct",
+   "type": "number",
+   "description": "US base (column 1 general) duty in percent; null unless every US line under the HS6 is the same plain ad valorem rate. 0 = Free."
+  },
+  {
+   "name": "us_rate_published",
+   "type": "string",
+   "description": "US general rates as published, distinct values separated by ' | '. Null when the HS6 has no US line."
+  },
+  {
+   "name": "eu_base_rate_pct",
+   "type": "number",
+   "description": "EU third-country duty in percent; null unless every TARIC code under the HS6 carries the same plain ad valorem duty."
+  },
+  {
+   "name": "eu_rate_published",
+   "type": "string",
+   "description": "EU third-country duties as published, distinct values separated by ' | '. Null when the extract holds no such duty."
+  },
+  {
+   "name": "ca_base_rate_pct",
+   "type": "number",
+   "description": "Canada MFN duty in percent; null unless every line under the HS6 is the same plain ad valorem rate."
+  },
+  {
+   "name": "ca_rate_published",
+   "type": "string",
+   "description": "Canada MFN rates as published, distinct values separated by ' | '."
+  },
+  {
+   "name": "au_base_rate_pct",
+   "type": "number",
+   "description": "Australia general duty in percent; null unless every line under the HS6 is the same plain ad valorem rate."
+  },
+  {
+   "name": "au_rate_published",
+   "type": "string",
+   "description": "Australia general rates as published (preferential markers removed), distinct values separated by ' | '."
+  },
+  {
+   "name": "flow_year",
+   "type": "integer",
+   "description": "Calendar year of the trade flows (2025)."
+  },
+  {
+   "name": "eu27_import_value_eur",
+   "type": "integer",
+   "description": "EU27 imports from non-EU countries, value in EUR. Null when Comext gives no value."
+  },
+  {
+   "name": "eu27_import_weight_kg",
+   "type": "number",
+   "description": "EU27 extra-EU imports, net mass in kg. Null when not given."
+  },
+  {
+   "name": "eu27_import_top_partners",
+   "type": "array",
+   "description": "Top 3 supplier countries of EU27 imports: partner_code (ISO), partner_name, value_eur, share_pct of the extra-EU total. Null when the partner figures do not reconcile with the total."
+  },
+  {
+   "name": "eu27_import_partner_codes",
+   "type": "array",
+   "description": "ISO codes of the top 3 import partners (for filtering)."
+  },
+  {
+   "name": "eu27_export_value_eur",
+   "type": "integer",
+   "description": "EU27 exports to non-EU countries, value in EUR. Null when Comext gives no value."
+  },
+  {
+   "name": "eu27_export_weight_kg",
+   "type": "number",
+   "description": "EU27 extra-EU exports, net mass in kg. Null when not given."
+  },
+  {
+   "name": "eu27_export_top_partners",
+   "type": "array",
+   "description": "Top 3 destination countries of EU27 exports: partner_code (ISO), partner_name, value_eur, share_pct. Null when the partner figures do not reconcile with the total."
+  },
+  {
+   "name": "eu27_export_partner_codes",
+   "type": "array",
+   "description": "ISO codes of the top 3 export partners (for filtering)."
+  }
+ ]
+}

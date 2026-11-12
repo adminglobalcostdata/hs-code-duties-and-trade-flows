@@ -1,0 +1,7 @@
+Data licence
+
+Licence: Mixed, per source: Eurostat Comext reuse authorised with acknowledgement of the source (Commission Decision 2011/833/EU); US HTS public domain (USITC); EU TARIC CC BY 4.0 (DG TAXUD); Canada Reproduction of Federal Law Order SI/97-5 (CBSA, unofficial copy); Australia CC BY 3.0 AU (ABF)
+
+Attribution: Trade flows: Source: Eurostat, Comext international trade database (dataset DS-045409, EU27 extra-EU trade, calendar year 2025, updated 2026-10-16); reuse authorised with acknowledgement of the source under Commission Decision 2011/833/EU; changes made: aggregated by HS6, partners ranked, net mass converted from 100 kg to kg. Duties: United States International Trade Commission, HTS (public domain); European Commission DG TAXUD, TARIC (CC BY 4.0, Decision 2011/833/EU; changes made: third-country duty read per code and summarised by HS6); Canada Border Services Agency, Customs Tariff (Reproduction of Federal Law Order SI/97-5, not an official version); Australian Border Force, Working Tariff Schedule 3 (CC BY 3.0 Australia; changes made: general rate read per code and summarised by HS6).
+
+The sample files in this repository are an extract of the dataset; the licence above applies to them.
